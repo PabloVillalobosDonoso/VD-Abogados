@@ -1,0 +1,88 @@
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  padding-top:80px;
+  background:#f4f6f8;
+  font-family:system-ui;
+}
+
+.hero{
+  height:75vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/fondo-hero-v3.jfif');
+  background-size:cover;
+  background-position:center;
+}
+
+.hero h1{
+  color:white;
+  font-size:3rem;
+}
+
+h1{
+  color:#2c3e50;
+}
+
+.logo{
+  height:75px;
+}
+
+h2{
+  color:#1f2d3d;
+}
+
+.card{
+  border-radius:12px;
+}
+
+.contact-item{
+  display:flex;
+  gap:15px;
+  margin-bottom:20px;
+  align-items:flex-start;
+}
+
+.contact-item i{
+  font-size:1.5rem;
+  color:#0d6efd;
+}
+
+/* BOTON WHATSAPP (10% acento) */
+.whatsapp-btn{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  width:55px;
+  height:55px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:1.5rem;
+  box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+.whatsapp-btn:hover{
+  transform:scale(1.05);
+}
+
+/*boton subir*/
+.btn-top{
+  position:fixed;
+  bottom:90px;
+  right:20px;
+  width:50px;
+  height:50px;
+  border:none;
+  border-radius:50%;
+  background:#0d6efd;
+  color:white;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  font-size:1.3rem;
+}
