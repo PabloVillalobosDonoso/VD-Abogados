@@ -3,7 +3,6 @@ html{
 }
 
 body{
-  padding-top:80px;
   background:#f4f6f8;
   font-family:system-ui;
 }
@@ -25,8 +24,11 @@ h1{
 }
 
 .logo{
-  
-  width: 13vh;
+  width: 15vh;
+}
+
+.navbar-nav .nav-link{
+    font-size: 1.2rem;   /* Cambia el tamaño */
 }
 
 h2{
