@@ -10,7 +10,7 @@ body{
 
 .hero{
   height:75vh;
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/fondo-hero-v3.jfif');
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/Los-Andes-Panoramica.jpg');
   background-size:cover;
   background-position:center;
 }
